@@ -30,9 +30,9 @@ app.use(methodOverride("_method"));
 
 
 
-app.get("/", (req,res) => {
-    res.send("server is taking response");
-})
+// app.get("/", (req,res) => {
+//     res.send("server is taking response");
+// })
 
 
 app.get("/chats" , async(req,res) => {
