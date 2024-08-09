@@ -79,7 +79,9 @@ app.put("/chats/:id", async (req,res) => {
    console.log(deltedChat);
    res.redirect("/chats");
  })
-
+app.get("/" , (req,res) => {
+    res.send("server working");
+})
 
 
 
