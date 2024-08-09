@@ -80,9 +80,7 @@ app.put("/chats/:id", async (req,res) => {
    res.redirect("/chats");
  })
 
- app.get("/", (req,res) => {
-    res.send("server is taking response");
-})
+
 
 
 app.listen(8080, () => {
