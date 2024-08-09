@@ -30,9 +30,6 @@ app.use(methodOverride("_method"));
 
 
 
-// app.get("/", (req,res) => {
-//     res.send("server is taking response");
-// })
 
 
 app.get("/chats" , async(req,res) => {
@@ -82,6 +79,11 @@ app.put("/chats/:id", async (req,res) => {
    console.log(deltedChat);
    res.redirect("/chats");
  })
+
+ app.get("/", (req,res) => {
+    res.send("server is taking response");
+})
+
 
 app.listen(8080, () => {
     console.log("server is listening")
