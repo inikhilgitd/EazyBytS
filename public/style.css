@@ -1,0 +1,47 @@
+body{
+    margin-left: 20px;
+}
+
+.chats{
+    background-color: aliceblue;
+    display: inline-block;
+    border-radius: 16px;
+
+}
+.msg{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 16px;
+}
+
+.Facebook{
+    margin-left: 40%;
+}
+
+@media (max-width: 600px) {
+    .Facebook {
+        margin-left: 25%;
+    }
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: white; 
+    color: black;
+    border: 2px solid #4CAF50;
+}
